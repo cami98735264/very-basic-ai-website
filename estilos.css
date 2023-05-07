@@ -13,6 +13,8 @@ img {
     -webkit-user-drag: none;
 }
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     background-color: #2a2c41;
