@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat&family=Sigmar&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    -webkit-user-drag: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a2c41;
+}
+header ul li {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li a {
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #8e9aaf;
+    font-family: 'Lilita One', cursive;
+}
+
+#que-es {
+    display: flex;
+    padding: 80px;
+    background-color: #c8d3fe;
+    font-family: 'Sigmar', cursive;
+    justify-content: space-around;
+}
+#que-es .robot {
+    width: 50%;
+}
+#que-es .text-container {
+    max-width: 80%;
+}
+#que-es .text-container h1 {
+    text-align: center;
+    color: #ff2e62;
+    font-size: 40px;
+}
+
+#que-es .text-container div {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#que-es .text-container div img {
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+#que-es .text-container div img:not(:nth-child(2)) {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#que-es .text-container p, #como-funciona .text-container p {
+    color: #2a2c41;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#evolucion {
+    background-color:#d6d6d6;
+    padding: 40px;
+}
+#evolucion img, #aplicaciones-areas img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+#mapa-mental {
+    padding: 40px;
+    background-color: #dcf8ff;
+}
+
+#como-funciona {
+    padding: 80px;
+    font-family: 'Sigmar', cursive;
+    display: flex;
+    justify-content: space-around;
+}
+
+#como-funciona h1 {
+    color: #f97f53;
+    font-size: 40px;
+    text-align: center;
+}
+
+#como-funciona .text-container {
+    max-width: 50%;
+}
+#como-funciona img {
+    width: 50%;
+}
+.sopa-de-letras {
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Sigmar', cursive;
+}
+
+.sopa-de-letras iframe {
+    height: 150vh
+}
+
+.sopa-de-letras h1 {
+    margin: 20px;
+}
+
+.cuadros * {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
